@@ -1,0 +1,23 @@
+{
+  "entity_id": "DK-007",
+  "kavram": "Kurt Yüzü Mübarektir",
+  "kaynak": "Dede Korkut Kitabı (Salur Kazan'ın Evinin Yağmalanması)",
+  "analiz": "Kurdun şans, uğur ve ilahi koruma sembolü olarak kabulü. Kurdun yüce bir varlık olarak görülmesi ve ona duyulan ontolojik saygı.",
+  "anahtar_kelimeler": [
+    "Kut",
+    "Mübarek",
+    "Rehber",
+    "Oğuzlar",
+    "Bozkurt"
+  ],
+  "etkilesim": "Kahramanın (Salur Kazan) doğa unsurları (ağaç, su, kurt) arasında sadece kurda 'mübarek' diyerek derin bir saygı ile hitap etmesi.",
+  "metadata": {
+    "version": "1.0.0",
+    "kategori": "Mitolojik Ontoloji",
+    "etiketler": [
+      "Epic",
+      "Mythology",
+      "Turkic"
+    ]
+  }
+}
