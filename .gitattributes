@@ -1,16 +1,13 @@
-# 🐺 ULUYI - Bozkırın Baskın Dili Yapılandırması
+# 🐺 ULUYI - Bozkırın Baskın Dili Yapılandırması (GÜNCELLENDİ)
 
-# Eski dosyaları ve veri setlerini 'dokümantasyon' olarak işaretle (Dil barında görünmezler)
-01-biyotaklit-ve-etolojik-strateji/* linguist-documentation
-02-dede-korkut-anlatilari/* linguist-documentation
-03-tureyis-ve-ontoloji/* linguist-documentation
-04-semiyoloji-ve-ikonografi/* linguist-documentation
-data/* linguist-documentation
-assets/* linguist-documentation
+# Varsayılan olarak her şeyi dokümantasyon say (Dil barında görünmez)
+* linguist-documentation
 
-# Python motorlarını 'vendored' (dış kütüphane/araç) olarak işaretle
+# Python dosyalarını dış araç (vendored) olarak işaretle
 *.py linguist-vendored
 
-# .uluy dosyalarını Wolfram Language olarak maskele (İsim benzerliği için)
-*.uluy linguist-language=Wolfram
+# .uluy dosyalarını Wolfram Language olarak maskele
+# Not: GitHub Linguist'te tam isim "Wolfram Language"dir.
+*.uluy linguist-language=Wolfram Language
 *.uluy linguist-detectable=true
+*.uluy linguist-documentation=false

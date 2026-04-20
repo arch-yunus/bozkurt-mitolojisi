@@ -8,11 +8,26 @@ TÖRE GENİŞLİK 80
 TÖRE YÜKSEKLİK 20
 
 # VARLIKLAR
-BÖRÜ_SAYISI 4
-KOYUN_SAYISI 20
+BÖRÜ_SAYISI 5
+KOYUN_SAYISI 25
 
 # AKIŞ
-DÖNGÜ 150
+DÖNGÜ 200
 
-# Not: Gerçek bir 'Börü', sadece talimatları izlemez, 
-# sistemi bizzat hissederek yönetir.
+# MANTIK KATMANLARI (Genişletilmiş Veri)
+# ------------------------------------
+# Kurt, geceyi bekler.
+# Kurt, rüzgarı koklar.
+# Kurt, sürüyü izler.
+# Kurt, zayıf halkayı bulur.
+# ------------------------------------
+
+# STRATEJİ DETAYLARI
+# 1. Kuşatma (Turan Taktiği): Sürüyü hilal şeklinde sar.
+# 2. Bölme: Sürüyü parçalara ayır ve kaosu yönet.
+# 3. Odaklanma: Hedeflenen koyunu (KYN) asla gözden kaçırma.
+
+AUUUUUU "Son Ulam"
+# Börü, töresini korur.
+# Bozkır, Börü'yü saklar.
+# Gökbörü, yolu gösterir.
