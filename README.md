@@ -65,6 +65,11 @@ graph TD
 *   **Nümismatik:** Para ve mühürlerde kurdun sürekliliği.
 *   **Petroglifler:** Avrasya steplerindeki görsel hafıza.
 
+### 📂 [05. Kurt Dili (ULUYI) ve Simülasyon](05-kurt-dili-ve-simulasyon/)
+*   **ULUYI Scripting:** Kurt sürüsü davranışlarını tanımlayan egzotik dil.
+*   **Sürü Zekası Simülasyonu:** Kadim stratejilerin algoritmik temsili.
+*   **Interpreter:** .uluy dosyalarını işleyen düşük seviyeli motor.
+
 ---
 
 ## 📖 Börülük Sözlüğü (Glossary)
@@ -119,9 +124,9 @@ Veri setlerimiz [JSON Schema](data/json/schema.json) standartlarına uygundur.
 ## 🚀 Yol Haritası (Roadmap)
 
 - [ ] **Interactive Map**: Ergenekon'dan günümüze kurt sembolizminin coğrafi yayılımı.
+- [x] **ULUYI Language**: Kurt sürüsü zekasını tanımlayan egzotik programlama dili.
+- [x] **Simulation**: Kurt sürüsü zekasının Python tabanlı ASCII simülasyonu.
 - [ ] **Dataset Expansion**: 50+ yeni mitolojik varlığın JSON API'ye eklenmesi.
-- [ ] **Simulation**: Kurt sürüsü zekasının Python tabanlı basit bir simülasyonu.
-- [ ] **Collaborative Research**: Akademik çevrelerin katkılarına açılması.
 
 ---
 

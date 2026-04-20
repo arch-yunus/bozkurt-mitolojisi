@@ -1,0 +1,18 @@
+# 🐺 ULUYI - Bozkırın Kadim Algoritması
+# Bu dosya, sürü zekası simülasyonu için parametreleri tanımlar.
+
+AUUUUUU "Ergenekon'dan Çıkış Stratejisi"
+
+# TÖRE (Yapılandırma)
+TÖRE GENİŞLİK 80
+TÖRE YÜKSEKLİK 20
+
+# VARLIKLAR
+BÖRÜ_SAYISI 4
+KOYUN_SAYISI 20
+
+# AKIŞ
+DÖNGÜ 150
+
+# Not: Gerçek bir 'Börü', sadece talimatları izlemez, 
+# sistemi bizzat hissederek yönetir.
