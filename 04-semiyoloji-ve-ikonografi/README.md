@@ -5,6 +5,7 @@ Bu dizin, kurdun maddi kültürdeki ve görsel sanatlardaki izlerini analiz eder
 ## 📄 README
 
 *   [Altın Kurt Başlı Tuğlar ve Sancaklar](tuglar-ve-sancaklar.md)
+*   [Nümismatik ve Mühürlerde Kurt](paralar-ve-muhurler.md)
 *   **Petroglifler:** Kaya resimlerindeki kurt tasvirleri.
 
 ## 🚩 Altın Kurt Başlı Tuğlar ve Sancaklar

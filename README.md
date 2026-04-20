@@ -33,6 +33,7 @@ graph TD
 *   **Sürekli Devinim:** Nomadizm ve optimizasyon.
 *   **Sürü Zekası:** Dağıtık iletişim ağları.
 *   **Asimetrik Harp:** Turan Taktiği mekaniği.
+*   **İletişim Protokolleri:** Uluma algoritmaları.
 
 ### 📂 [02. Dede Korkut Anlatıları ve Epik Gelenek](02-dede-korkut-anlatilari/)
 *   **Kurt Yüzü Mübarektir:** Ontolojik kökenler.
@@ -42,10 +43,12 @@ graph TD
 ### 📂 [03. Türeyiş ve Ontoloji](03-tureyis-ve-ontoloji/)
 *   **Aşina Boyu:** Göktürk hanedan izleri.
 *   **Ergenekon:** Coğrafi yön bulma algoritmaları.
+*   **Gökbörü:** Oğuz Kağan'ın ilahi rehberi.
 
 ### 📂 [04. Semiyoloji ve İkonografi](04-semiyoloji-ve-ikonografi/)
 *   **Altın Kurt Başlı Tuğlar:** Otorite sembolleri.
 *   **Petroglifler:** Kaya resimlerinde evrim.
+*   **Nümismatik:** Para ve mühürlerde kurt.
 
 ---
 
@@ -60,15 +63,15 @@ cd bozkurt-mitolojisi
 
 ### ⚙️ Geliştiriciler İçin: Böri Veri Seti (Data API)
 
-Makine öğrenimi modelleri ve strateji oyunları geliştiren mühendisler için `/data/json/` dizininde kurdun taktiksel ve mitolojik formları standardize edilmiştir.
+Makine öğrenimi modelleri ve strateji oyunları geliştiren mühendisler için `/data/json/` dizininde kurdun taktiksel ve mitolojik formları standardize edilmiştir. Veriler [JSON Schema](data/json/schema.json) ile doğrulanabilir.
 
-**Örnek Şema (`data/json/lore/dede_korkut_wolf.json`):**
+**Örnek Şema (`data/json/lore/oguz_kagan_wolf.json`):**
 ```json
 {
-  "entity_id": "DK-007",
-  "kavram": "Kurt Yüzü Mübarektir",
-  "kaynak": "Dede Korkut Kitabı (Salur Kazan'ın Evinin Yağmalanması)",
-  "analiz": "Kurdun şans, uğur ve ilahi koruma sembolü olarak kabulü"
+  "entity_id": "OK-001",
+  "kavram": "Gökbörü",
+  "kaynak": "Oğuz Kağan Destanı",
+  "analiz": "Işık içerisinden çıkan ilahi rehber."
 }
 ```
 

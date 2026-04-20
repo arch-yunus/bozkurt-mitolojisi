@@ -35,4 +35,5 @@ graph TD
 
 ## 📄 Alt Dosyalar
 * [Turan Taktiği: Kurt Kapanı Mekaniği](turan-taktigi.md)
-* [Sürü Zekası ve Dağıtık Sistemler](suru_zekasi.md)
+* [Sürü Zekası ve Dağıtık Sistemler](suru-zekasi.md)
+* [İletişim Protokolleri: Uluma ve Veri İletişimi](iletisim-protokolleri.md)

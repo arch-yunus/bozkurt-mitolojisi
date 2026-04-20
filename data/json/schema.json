@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Bozkurt Mitolojisi Lore Schema",
+  "type": "object",
+  "properties": {
+    "entity_id": {
+      "type": "string",
+      "description": "Unique identifier for the entry."
+    },
+    "kavram": {
+      "type": "string",
+      "description": "The concept or entity name."
+    },
+    "kaynak": {
+      "type": "string",
+      "description": "Primary historical or literary source."
+    },
+    "analiz": {
+      "type": "string",
+      "description": "Ethological or mythological analysis."
+    },
+    "anahtar_kelimeler": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "etkilesim": {
+      "type": "string",
+      "description": "Interaction pattern with humans or other entities."
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "version": { "type": "string" },
+        "kategori": { "type": "string" },
+        "etiketler": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    }
+  },
+  "required": ["entity_id", "kavram", "kaynak"]
+}

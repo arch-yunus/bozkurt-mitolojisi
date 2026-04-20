@@ -1,0 +1,23 @@
+{
+  "entity_id": "OK-001",
+  "kavram": "Gökbörü (Gök Yeleli Kurt)",
+  "kaynak": "Oğuz Kağan Destanı",
+  "analiz": "Işık içerisinden çıkan ilahi rehber. Stratejik keşif ve ordu yönetiminde navigasyonel bir veri kaynağı olarak modellenmiştir.",
+  "anahtar_kelimeler": [
+    "Gökbörü",
+    "Işık",
+    "Rehber",
+    "Oğuz Kağan",
+    "Fetih"
+  ],
+  "etkilesim": "Kurdun dile gelerek Kağan'a yol göstermesi; ordunun mutlak bir disiplinle kurdu takip etmesi.",
+  "metadata": {
+    "version": "1.0.0",
+    "kategori": "Navigasyon ve Rehberlik",
+    "etiketler": [
+      "Epic",
+      "Guidance",
+      "Celestial"
+    ]
+  }
+}
