@@ -15,9 +15,10 @@ class UluyiInterpreter:
             "wolf_count": 3,
             "sheep_count": 10,
             "iterations": 50,
-            "speed": 1.0
+            "speed": 1.0,
+            "strategy": "standart"
         }
-        self.variables = {}
+        self.logs = []
 
     def parse(self, file_path):
         if not os.path.exists(file_path):
@@ -42,10 +43,11 @@ class UluyiInterpreter:
             elif line.startswith("TÖRE"):
                 parts = line.split()
                 if len(parts) >= 3:
-                    key = parts[1].lower()
+                    key = parts[1].upper()
                     val = parts[2]
-                    if key == "genişlik": self.config["width"] = int(val)
-                    elif key == "yükseklik": self.config["height"] = int(val)
+                    if key == "GENİŞLİK": self.config["width"] = int(val)
+                    elif key == "YÜKSEKLİK": self.config["height"] = int(val)
+                    elif key == "STRATEJİ": self.config["strategy"] = val.lower()
 
             # BÖRÜ_SAYISI [Int]
             elif line.startswith("BÖRÜ_SAYISI"):
@@ -65,14 +67,24 @@ class UluyiInterpreter:
                 if len(parts) >= 2:
                     self.config["iterations"] = int(parts[1])
 
-        return self.config
+            # ULUMA [Message]
+            elif line.startswith("ULUMA"):
+                match = re.search(r'"([^"]*)"', line)
+                if match:
+                    self.logs.append(match.group(1))
+
+        return self.config, self.logs
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Kullanım: python interpreter.py <dosya.uluy>")
     else:
         interp = UluyiInterpreter()
-        conf = interp.parse(sys.argv[1])
+        conf, logs = interp.parse(sys.argv[1])
         print(f"--- ULUYI Yapılandırması Yüklendi ---")
         for k, v in conf.items():
             print(f"{k}: {v}")
+        if logs:
+            print(f"--- Kadim Mesajlar ---")
+            for msg in logs:
+                print(f"🐺 {msg}")

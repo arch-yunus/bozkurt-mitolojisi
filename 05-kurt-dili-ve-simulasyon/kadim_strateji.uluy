@@ -6,21 +6,20 @@ AUUUUUU "Ergenekon'dan Çıkış Stratejisi"
 # TÖRE (Yapılandırma)
 TÖRE GENİŞLİK 80
 TÖRE YÜKSEKLİK 20
+TÖRE STRATEJİ TURAN
 
 # VARLIKLAR
 BÖRÜ_SAYISI 5
-KOYUN_SAYISI 25
+KOYUN_SAYISI 30
 
 # AKIŞ
-DÖNGÜ 200
+DÖNGÜ 300
 
-# MANTIK KATMANLARI (Genişletilmiş Veri)
-# ------------------------------------
-# Kurt, geceyi bekler.
-# Kurt, rüzgarı koklar.
-# Kurt, sürüyü izler.
-# Kurt, zayıf halkayı bulur.
-# ------------------------------------
+# KADİM SESLER
+ULUMA "Bozkırın sessizliği, fırtınanın habercisidir."
+ULUMA "Kurt, rüzgarı kokladı; pusu kuruldu."
+ULUMA "Hilal kapanıyor, kaçış yok!"
+ULUMA "Gök Tanrı'nın izniyle, av tamamlanacak."
 
 # STRATEJİ DETAYLARI
 # 1. Kuşatma (Turan Taktiği): Sürüyü hilal şeklinde sar.

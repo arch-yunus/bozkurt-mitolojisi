@@ -4,8 +4,8 @@
 
 [![Lisans: CC BY-NC-SA 4.0](https://img.shields.io/badge/Lisans-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Kapsam: Antropoloji, Etoloji & Sistemler](https://img.shields.io/badge/Kapsam-Antropoloji%2C%20Etoloji%20%26%20Sistemler-blue.svg)]()
-[![Versiyon: 1.5.0-alpha](https://img.shields.io/badge/Versiyon-1.5.0--alpha-brightgreen.svg)]()
-[![Status: Research Expanded](https://img.shields.io/badge/Status-Research%20Expanded-orange.svg)]()
+[![Versiyon: 1.6.0-alpha](https://img.shields.io/badge/Versiyon-1.6.0--alpha-brightgreen.svg)]()
+[![Status: Comprehensive Update](https://img.shields.io/badge/Status-Comprehensive%20Update-blue.svg)]()
 
 > *"Yukarıda mavi gök, aşağıda yağız yer yaratıldığında, ikisinin arasında insan oğlu yaratılmış... O zamanlar Tanrı güç verdiği için, babam kağanın ordusu kurt gibi imiş, düşmanları koyun gibi imiş."* – *Orhun Yazıtları (Kül Tigin Anıtı)*
 
@@ -123,10 +123,11 @@ Veri setlerimiz [JSON Schema](data/json/schema.json) standartlarına uygundur.
 
 ## 🚀 Yol Haritası (Roadmap)
 
-- [ ] **Interactive Map**: Ergenekon'dan günümüze kurt sembolizminin coğrafi yayılımı.
-- [x] **ULUYI Language**: Kurt sürüsü zekasını tanımlayan egzotik programlama dili.
-- [x] **Simulation**: Kurt sürüsü zekasının Python tabanlı ASCII simülasyonu.
-- [ ] **Dataset Expansion**: 50+ yeni mitolojik varlığın JSON API'ye eklenmesi.
+- [x] **Interactive Dashboard**: Veri havuzunu ve stratejileri görselleştiren web arayüzü.
+- [x] **ULUYI Language Evolution**: Enerji ve strateji (Turan) mantığı eklenen egzotik dil.
+- [x] **Simulation 2.0**: Gelişmiş ASCII simülasyonu ve stratejik avlanma.
+- [x] **Dataset Expansion**: Ergenekon ve Türeyiş destanlarının JSON entegrasyonu.
+- [ ] **Mobile App**: Arşiv verilerine erişim sağlayan mobil uygulama konsepti.
 
 ---
 

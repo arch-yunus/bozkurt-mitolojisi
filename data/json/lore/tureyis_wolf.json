@@ -1,0 +1,23 @@
+{
+  "entity_id": "TR-001",
+  "kavram": "Türeyiş Kurdu (Ata)",
+  "kaynak": "Türeyiş Destanı (Uygur)",
+  "analiz": "Tanrı'nın bir kurt suretinde yeryüzüne inerek Uygur hanının kızlarıyla evlenmesi. Soyun ilahi ve güçlü bir kökene dayandırılması, ontolojik bir kimlik inşası.",
+  "anahtar_kelimeler": [
+    "Türeyiş",
+    "İlahi Ata",
+    "Uygurlar",
+    "Kutsal Birleşme",
+    "Gök Tanrı"
+  ],
+  "etkilesim": "Tanrı, bir kurt kılığında kuleye gelir; bu birleşmeden doğan nesiller 'Kurt Ruhu' ile donatılmış olarak kabul edilir.",
+  "metadata": {
+    "version": "1.0.0",
+    "kategori": "Ontoloji ve Köken",
+    "etiketler": [
+      "Origin",
+      "Mythology",
+      "Creation"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "ER-001",
+  "kavram": "Ergenekon Bozkurtu (Yol Gösteren)",
+  "kaynak": "Ergenekon Destanı",
+  "analiz": "Türklerin sığındıkları gizli vadiden (Ergenekon) çıkışlarını sağlayan, Tanrı tarafından gönderilen rehber kurt. Bir çıkış algoritması ve navigasyonel zeka örneği.",
+  "anahtar_kelimeler": [
+    "Ergenekon",
+    "Bozkurt",
+    "Rehber",
+    "Demir Dağ",
+    "Kurtuluş"
+  ],
+  "etkilesim": "Demir dağın eritilmesinin ardından ufukta beliren gök yeleli kurt, halkın önüne düşerek onları kadim yurtlarına ulaştırır.",
+  "metadata": {
+    "version": "1.0.0",
+    "kategori": "Kurtarıcı ve Yol Gösterici",
+    "etiketler": [
+      "Epic",
+      "Liberation",
+      "Navigation"
+    ]
+  }
+}
